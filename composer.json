@@ -1,0 +1,28 @@
+{
+  "name": "awesomemotive/eloqua",
+  "description": "An API wrapper for Eloqua.",
+  "require": {
+    "php": ">=5.5",
+    "ext-curl": "*",
+    "guzzlehttp/guzzle": "~6.0",
+    "ircmaxell/random-lib": "~1.1",
+    "league/oauth2-client": "^1.4.2"
+  },
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Thomas Griffin",
+      "email": "thomas@awesomemotive.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AwesomeMotive\\Eloqua\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require-dev": {
+    "codeception/codeception": "^2.1",
+    "codeception/aspect-mock": "^0.5.3"
+  }
+}
