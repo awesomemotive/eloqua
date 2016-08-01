@@ -17,11 +17,6 @@ class Eloqua {
 	protected $baseUrl = 'https://api.getEloqua.com/v2/';
 
 	/**
-	 * @var int|bool
-	 */
-	protected $accountId;
-
-	/**
 	 * @var string
 	 */
 	protected $clientId;
